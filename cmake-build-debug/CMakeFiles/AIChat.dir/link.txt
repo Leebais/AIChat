@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/AIChat.dir/main.cpp.o  -o AIChat 
+/usr/bin/c++  -g   CMakeFiles/AIChat.dir/main.cpp.o  -o AIChat  -lpthread 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/leebais/文档/GitHub/AIChat
+# Install script for directory: /home/leebais/GitHub/AIChat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leebais/文档/GitHub/AIChat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leebais/GitHub/AIChat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

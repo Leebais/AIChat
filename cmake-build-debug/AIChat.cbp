@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/leebais/GitHub/AIChat/main.cpp">
+		<Unit filename="/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp">
+			<Option target="AIChat"/>
+		</Unit>
+		<Unit filename="/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.h">
+			<Option target="AIChat"/>
+		</Unit>
+		<Unit filename="/home/leebais/GitHub/AIChat/src/main.cpp">
 			<Option target="AIChat"/>
 		</Unit>
 		<Unit filename="/home/leebais/GitHub/AIChat/CMakeLists.txt">

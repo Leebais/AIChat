@@ -143,32 +143,59 @@ AIChat/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/build
 .PHONY : AIChat/fast
 
-main.o: main.cpp.o
+src/ShowDesktop/Book.o: src/ShowDesktop/Book.cpp.o
 
-.PHONY : main.o
+.PHONY : src/ShowDesktop/Book.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/ShowDesktop/Book.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o
+.PHONY : src/ShowDesktop/Book.cpp.o
 
-main.i: main.cpp.i
+src/ShowDesktop/Book.i: src/ShowDesktop/Book.cpp.i
 
-.PHONY : main.i
+.PHONY : src/ShowDesktop/Book.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/ShowDesktop/Book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.i
+.PHONY : src/ShowDesktop/Book.cpp.i
 
-main.s: main.cpp.s
+src/ShowDesktop/Book.s: src/ShowDesktop/Book.cpp.s
 
-.PHONY : main.s
+.PHONY : src/ShowDesktop/Book.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/ShowDesktop/Book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.s
+.PHONY : src/ShowDesktop/Book.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AIChat"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/ShowDesktop/Book.o"
+	@echo "... src/ShowDesktop/Book.i"
+	@echo "... src/ShowDesktop/Book.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

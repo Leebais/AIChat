@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp
+iostream
+-
+unistd.h
+-
+Book.h
+/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.h
+
+/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.h
+mutex
+-
+

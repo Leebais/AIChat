@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/leebais/GitHub/AIChat/main.cpp" "/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles/AIChat.dir/main.cpp.o"
+  "/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp" "/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o"
+  "/home/leebais/GitHub/AIChat/src/main.cpp" "/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles/AIChat.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

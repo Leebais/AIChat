@@ -55,19 +55,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/leebais/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Volumes/leebais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/leebais/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/cmake/linux/bin/cmake -E rm -f
+RM = "/Volumes/leebais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leebais/GitHub/AIChat
+CMAKE_SOURCE_DIR = /Volumes/leebais/AIChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leebais/GitHub/AIChat/cmake-build-debug
+CMAKE_BINARY_DIR = /Volumes/leebais/AIChat/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/AIChat.dir/clean
 CMakeFiles/AIChat.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AIChat.dir/build.make CMakeFiles/AIChat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target AIChat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target AIChat"
 .PHONY : CMakeFiles/AIChat.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AIChat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AIChat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AIChat.dir/rule
 
 # Convenience name for target.

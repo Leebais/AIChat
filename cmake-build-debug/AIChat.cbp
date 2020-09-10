@@ -8,90 +8,88 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/leebais/GitHub/AIChat/cmake-build-debug"/>
+				<Option working_dir="/Volumes/leebais/AIChat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/leebais/GitHub/AIChat/cmake-build-debug"/>
+				<Option working_dir="/Volumes/leebais/AIChat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/leebais/GitHub/AIChat/cmake-build-debug"/>
+				<Option working_dir="/Volumes/leebais/AIChat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AIChat">
-				<Option output="/home/leebais/GitHub/AIChat/cmake-build-debug/AIChat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/leebais/GitHub/AIChat/cmake-build-debug"/>
+				<Option output="/Volumes/leebais/AIChat/cmake-build-debug/AIChat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/leebais/AIChat/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 AIChat"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 AIChat"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AIChat/fast">
-				<Option output="/home/leebais/GitHub/AIChat/cmake-build-debug/AIChat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/leebais/GitHub/AIChat/cmake-build-debug"/>
+				<Option output="/Volumes/leebais/AIChat/cmake-build-debug/AIChat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/leebais/AIChat/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 AIChat/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leebais/GitHub/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 AIChat/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/leebais/AIChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp">
+		<Unit filename="/Volumes/leebais/AIChat/src/ShowDesktop/Book.cpp">
 			<Option target="AIChat"/>
 		</Unit>
-		<Unit filename="/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.h">
+		<Unit filename="/Volumes/leebais/AIChat/src/ShowDesktop/Book.h">
 			<Option target="AIChat"/>
 		</Unit>
-		<Unit filename="/home/leebais/GitHub/AIChat/src/main.cpp">
+		<Unit filename="/Volumes/leebais/AIChat/src/main.cpp">
 			<Option target="AIChat"/>
 		</Unit>
-		<Unit filename="/home/leebais/GitHub/AIChat/CMakeLists.txt">
+		<Unit filename="/Volumes/leebais/AIChat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

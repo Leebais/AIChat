@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/leebais/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Volumes/leebais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/leebais/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/cmake/linux/bin/cmake -E rm -f
+RM = "/Volumes/leebais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leebais/GitHub/AIChat
+CMAKE_SOURCE_DIR = /Volumes/leebais/AIChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leebais/GitHub/AIChat/cmake-build-debug
+CMAKE_BINARY_DIR = /Volumes/leebais/AIChat/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AIChat.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/AIChat.dir/flags.make
 
 CMakeFiles/AIChat.dir/src/main.cpp.o: CMakeFiles/AIChat.dir/flags.make
 CMakeFiles/AIChat.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AIChat.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AIChat.dir/src/main.cpp.o -c /home/leebais/GitHub/AIChat/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AIChat.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AIChat.dir/src/main.cpp.o -c /Volumes/leebais/AIChat/src/main.cpp
 
 CMakeFiles/AIChat.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIChat.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leebais/GitHub/AIChat/src/main.cpp > CMakeFiles/AIChat.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/leebais/AIChat/src/main.cpp > CMakeFiles/AIChat.dir/src/main.cpp.i
 
 CMakeFiles/AIChat.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIChat.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leebais/GitHub/AIChat/src/main.cpp -o CMakeFiles/AIChat.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/leebais/AIChat/src/main.cpp -o CMakeFiles/AIChat.dir/src/main.cpp.s
 
 CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o: CMakeFiles/AIChat.dir/flags.make
 CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o: ../src/ShowDesktop/Book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o -c /home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o -c /Volumes/leebais/AIChat/src/ShowDesktop/Book.cpp
 
 CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp > CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/leebais/AIChat/src/ShowDesktop/Book.cpp > CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.i
 
 CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp -o CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/leebais/AIChat/src/ShowDesktop/Book.cpp -o CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.s
 
 # Object files for target AIChat
 AIChat_OBJECTS = \
@@ -115,7 +115,7 @@ AIChat: CMakeFiles/AIChat.dir/src/main.cpp.o
 AIChat: CMakeFiles/AIChat.dir/src/ShowDesktop/Book.cpp.o
 AIChat: CMakeFiles/AIChat.dir/build.make
 AIChat: CMakeFiles/AIChat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AIChat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AIChat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AIChat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/AIChat.dir/clean:
 .PHONY : CMakeFiles/AIChat.dir/clean
 
 CMakeFiles/AIChat.dir/depend:
-	cd /home/leebais/GitHub/AIChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leebais/GitHub/AIChat /home/leebais/GitHub/AIChat /home/leebais/GitHub/AIChat/cmake-build-debug /home/leebais/GitHub/AIChat/cmake-build-debug /home/leebais/GitHub/AIChat/cmake-build-debug/CMakeFiles/AIChat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/leebais/AIChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/leebais/AIChat /Volumes/leebais/AIChat /Volumes/leebais/AIChat/cmake-build-debug /Volumes/leebais/AIChat/cmake-build-debug /Volumes/leebais/AIChat/cmake-build-debug/CMakeFiles/AIChat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AIChat.dir/depend
 

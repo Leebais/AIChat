@@ -4,5 +4,5 @@ project(AIChat)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(AIChat src/main.cpp src/ShowDesktop/Book.cpp src/ShowDesktop/Book.h)
-
-target_link_libraries(AIChat libpthread.so)
+#TODO:linux系统检测
+#target_link_libraries(AIChat libpthread.so)

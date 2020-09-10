@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.cpp
+/Volumes/leebais/AIChat/src/ShowDesktop/Book.cpp
 iostream
 -
 unistd.h
 -
 Book.h
-/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.h
+/Volumes/leebais/AIChat/src/ShowDesktop/Book.h
 
-/home/leebais/GitHub/AIChat/src/ShowDesktop/Book.h
+/Volumes/leebais/AIChat/src/ShowDesktop/Book.h
 mutex
 -
+
+/Volumes/leebais/AIChat/src/main.cpp
+iostream
+-
+thread
+-
+ShowDesktop/Book.h
+/Volumes/leebais/AIChat/src/ShowDesktop/Book.h
 

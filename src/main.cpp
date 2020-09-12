@@ -3,19 +3,16 @@
 #include "ShowDesktop/Book.h"
 
 using namespace std;
-void thread_1()
+void Reader(sbook* book)
 {
-    cout << "hello from thread_1" << endl;
+    Book::RreadPage(*book);
 }
 int main(int argc, char **argv)
 {
-    thread t1(thread_1);
-    /**
-    join()相当于调用了两个函数：WaitForSingleObject、CloseHandle，事实上，在vc12中也是这么实现的
-    */
+    sbook book;
+    sbook* pointer_book=&book;
+    Book::WritePage(book,"Hello");
+    thread t1(Reader,&book);
     t1.join();
-    Book book;
-    book.WritePage(book,"Hello");
-    book.RreadPage(book);
     return 0;
 }

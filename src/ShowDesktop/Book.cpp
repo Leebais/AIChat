@@ -6,13 +6,7 @@
 #include <unistd.h>
 #include "Book.h"
 
-Book::Book() {
-    //book1.pointerForWriter_=book1.book[0];
-    //book1.pointerForReader_=book1.book[0];
-    book1.messageCount_=0;
-    book1.locateForWriter_=0;
-    book1.locateForReader_=0;
-};
+Book::Book()=default;
 
 Book::~Book() = default;
 
@@ -36,10 +30,26 @@ void sbook::readPage(sbook& dbook) {
     }
 }
 
-void Book::RreadPage(Book &book) {
-    book.book1.readPage(book1);
+sbook::sbook() {
+    messageCount_=0;
+    locateForWriter_=0;
+    locateForReader_=0;
+
 }
 
-void Book::WritePage(Book &book, const char *m) {
-    book.book1.writePage(book1,m);
+void sbook::strcpy(char *dest, const char *src) {
+    {
+        //TODO:修正字符串长度
+        for(int i=0;src[i]!='\0';i++){
+            dest[i] = src[i];
+        }
+    }
+}
+
+void Book::RreadPage(sbook &book) {
+    book.readPage(book);
+}
+
+void Book::WritePage(sbook &book, const char *m) {
+    book.writePage(book,m);
 }

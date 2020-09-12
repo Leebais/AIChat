@@ -14,29 +14,21 @@ typedef struct sbook{
     //char* pointerForReader_;
     int locateForReader_;
     int locateForWriter_;
-
     void readPage(sbook& book);
-
     void writePage(sbook& book,
                    const char* m);
-    void strcpy(char* dest,const char* src){
-        //TODO:修正字符串长度
-        for(int i=0;src[i]!='\0';i++){
-            dest[i] = src[i];
-        }
-    }
+    static void strcpy(char* dest,const char* src);
+public:
+    sbook();
 }sbook;
 
 class Book {
-    private:
-    sbook book1;
-    //sbook book2;
-    public:
+public:
     Book();
     ~Book();
-    void WritePage(Book& book,
+    static void WritePage(sbook & book,
                    const char* m);
-    void RreadPage(Book& book);
+    static void RreadPage(sbook& book);
 };
 
 
